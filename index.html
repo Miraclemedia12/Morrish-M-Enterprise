@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Morrish M Enterprises - Professional Digital Goods Distribution and Online Services.">
+    <title>Morrish M Enterprises | Digital Excellence & Solutions</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS STYLING - ENTERPRISE GRADE
+           Ensuring the site looks professional for payment gateway verification.
+        */
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #0f172a;
+            --accent-color: #38bdf8;
+            --text-color: #334155;
+            --text-light: #64748b;
+            --white: #ffffff;
+            --bg-light: #f8fafc;
+            --border-radius: 12px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-light);
+            scroll-behavior: smooth;
+        }
+
+        /* Navigation Styling */
+        nav {
+            padding: 25px 10%;
+            background: var(--white);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo { font-size: 1.6rem; font-weight: 800; color: var(--primary-color); letter-spacing: -1px; }
+
+        .nav-links a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover { color: var(--primary-color); }
+
+        /* Hero Section Styling */
+        .hero {
+            padding: 120px 10%;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .hero h1 { font-size: 3.8rem; margin-bottom: 20px; font-weight: 800; }
+        .hero p { font-size: 1.3rem; color: #cbd5e1; max-width: 800px; margin: 0 auto 40px; }
+
+        /* Section Layouts */
+        .section { padding: 80px 10%; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .card h3 { color: var(--primary-color); margin-bottom: 15px; }
+
+        /* Compliance Box - Highly important for Kora */
+        .compliance-section {
+            background: #eff6ff;
+            padding: 60px;
+            border-radius: var(--border-radius);
+            margin: 0 10%;
+            border-left: 6px solid var(--primary-color);
+        }
+
+        /* Footer Styling */
+        footer {
+            background: var(--secondary-color);
+            color: #94a3b8;
+            padding: 80px 10%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        footer h4 { color: white; margin-bottom: 20px; font-size: 1.1rem; }
+        footer a { color: #94a3b8; text-decoration: none; display: block; margin-bottom: 10px; }
+        footer a:hover { color: var(--accent-color); }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MORRISH M ENTERPRISES</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#compliance">Compliance</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Global Digital Distribution</h1>
+        <p>Morrish M Enterprises provides an enterprise-grade platform for the secure procurement, licensing, and immediate delivery of digital assets and online services.</p>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container" style="text-align: center;">
+            <h2 style="margin-bottom: 30px;">Company Overview</h2>
+            <p style="max-width: 900px; margin: 0 auto; font-size: 1.1rem;">
+                Morrish M Enterprises is a professionally managed digital commerce firm. We specialize in the acquisition, licensing, and distribution of high-value digital products, software solutions, and educational content. Our mission is to bridge the gap between complex digital resources and the end-user by providing an infrastructure built on transparency, speed, and uncompromising security. Every product delivered through our portal is vetted for quality and authenticity.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="section" style="background: #f1f5f9;">
+        <div class="container">
+            <h2 style="text-align:center; margin-bottom: 50px;">Our Digital Solutions</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Software Licensing</h3>
+                    <p>We provide authorized digital software tools for businesses and individuals, ensuring full compatibility and immediate electronic activation.</p>
+                </div>
+                <div class="card">
+                    <h3>E-Learning Content</h3>
+                    <p>Access high-quality educational modules, premium courses, and training materials designed to facilitate knowledge acquisition in the modern digital economy.</p>
+                </div>
+                <div class="card">
+                    <h3>Digital Asset Distribution</h3>
+                    <p>We distribute specialized digital resources, including graphic assets, templates, and proprietary online tools for professional creative projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px;">Our Transaction & Delivery Protocol</h2>
+            <p style="text-align: center; margin-bottom: 40px;">Transparency is at the core of our business. Here is how our digital delivery system functions:</p>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <h4>1. Selection</h4>
+                    <p>Clients browse our secure catalog and select the required digital service or product.</p>
+                </div>
+                <div class="card">
+                    <h4>2. Secure Payment</h4>
+                    <p>Transactions are processed via Kora’s encrypted gateway, ensuring PCI-DSS compliance and financial data security.</p>
+                </div>
+                <div class="card">
+                    <h4>3. Instant Delivery</h4>
+                    <p>Upon payment verification, our automated system generates a secure link or activation code, delivered instantly to the client.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="compliance" class="compliance-section">
+        <h2 style="color: var(--secondary-color); margin-bottom: 20px;">Commitment to Compliance</h2>
+        <p>
+            Morrish M Enterprises maintains strict adherence to international and local digital transaction regulations. We work closely with our payment partners, including Kora, to ensure that all services rendered are compliant with standard anti-fraud and consumer protection policies. 
+        </p>
+        <p style="margin-top: 15px;">
+            Our automated logging system generates detailed transaction records for every digital delivery, ensuring full traceability for both the business and the customer. We prioritize the security of our users and the integrity of our financial operations above all else.
+        </p>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container" style="max-width: 800px;">
+            <h2 style="text-align: center; margin-bottom: 40px;">Frequently Asked Questions</h2>
+            <div class="card" style="margin-bottom: 20px;">
+                <h4>How are products delivered?</h4>
+                <p>All products are delivered electronically. You will receive a WhatsApp/Telegram <message></Tele> or a portal notification with your download link or service access details immediately after payment confirmation.</p>
+            </div>
+            <div class="card" style="margin-bottom: 20px;">
+                <h4>Is my payment secure?</h4>
+                <p>Yes. We utilize Kora’s payment gateway, which uses advanced encryption technology to protect your banking and personal information during the checkout process.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div>
+            <h3 style="color: white; margin-bottom: 15px;">MORRISH M ENTERPRISES</h3>
+            <p>Your trusted partner in premium digital distribution and electronic solutions.</p>
+        </div>
+        <div>
+            <h4>Contact Information</h4>
+            <a href="mailto:uzochukwusixtus15@gmail.com">Email: uzochukwusixtus15@gmail.com</a>
+            <a href="tel:+2349061912200">Phone: +234 906 191 2200</a>
+        </div>
+        <div>
+            <h4>Legal & Policies</h4>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="refund.html">Refund Policy</a>
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
+    </footer>
+
+    <div style="background: #0f172a; padding: 20px; text-align: center; color: #475569; font-size: 0.8rem;">
+        &copy; 2026 Morrish M Enterprises. All Rights Reserved.
+    </div>
+
+    </body>
+</html>
